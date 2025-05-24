@@ -63,3 +63,14 @@ section {
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             transition: box-shadow 0.4s ease;
         }
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+@media (max-width: 600px) {
+    table{
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap
+    }
+}
